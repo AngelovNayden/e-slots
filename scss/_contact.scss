@@ -1,0 +1,29 @@
+.our-contact-info {
+  background: url(../images/poker-chips.jpg);
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#contact {
+  background-color: rgba(255, 55, 100, 0.5);
+}
+
+.map {
+  border: 3px solid blue;
+}
+
+@media (max-width: 767px) {
+  .map {
+    width: 300px;
+    height: 200px;
+  }
+  #contact-information {
+    width: 300px;
+  }
+}
+
+.user-form {
+  border: 3px solid blue;
+  border-radius: 50px;
+}

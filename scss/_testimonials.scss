@@ -1,0 +1,17 @@
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+#testimonial {
+  background-color: rgba(255, 55, 100, 0.5);
+  border: 10px solid rgba(255, 55, 100, 0.5);
+}
+
+@media (max-width: 300px) {
+  .testimonial-images {
+    width: 200px;
+  }
+}

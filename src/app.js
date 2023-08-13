@@ -4,6 +4,7 @@ import { showContact } from "./views/contact.js";
 import { showHome } from "./views/home.js";
 import { showMessageSubmitted } from "./views/messageSubmitted.js";
 import { showTestimonials } from "./views/testimonials.js";
+import { showWork } from "./views/work.js";
 
 const root = document.querySelector("#main-content-wrapper");
 
@@ -22,5 +23,6 @@ page("/about", showAbout);
 page("/contact", showContact);
 page("/message", showMessageSubmitted);
 page("/testimonials", showTestimonials);
+page("/our-work", showWork);
 
 page.start();

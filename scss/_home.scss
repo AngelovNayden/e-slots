@@ -1,0 +1,21 @@
+#home {
+  min-height: 80vh;
+  overflow: hidden;
+  background-color: rgba(255, 55, 100, 0.5);
+}
+
+.slot-machine {
+  width: 700px;
+  height: 400px;
+}
+
+h2 {
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .slot-machine {
+    width: 300px;
+    height: 200px;
+  }
+}

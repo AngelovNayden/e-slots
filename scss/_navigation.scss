@@ -1,0 +1,14 @@
+nav {
+  background-color: rgba(224, 155, 51, 0.686);
+  border-bottom: 1px solid red;
+}
+
+ul li:hover {
+  background-color: rgb(255, 0, 0);
+  border-radius: 50px;
+  transition: ease-out 0.5s;
+}
+
+img {
+  border-radius: 50px;
+}

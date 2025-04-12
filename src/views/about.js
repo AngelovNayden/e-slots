@@ -124,4 +124,6 @@ const aboutTemplate = () => html`
 
 export function showAbout(ctx, next) {
   ctx.showView(aboutTemplate());
+  console.log("it works");
+  
 }

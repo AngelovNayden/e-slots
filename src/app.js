@@ -8,6 +8,8 @@ import { showWork } from "./views/work.js";
 
 const root = document.querySelector("#main-content-wrapper");
 
+console.log("Router starting..."); // Should appear in console
+
 function showView(content, next) {
   render(content, root);
 }
@@ -26,3 +28,4 @@ page("/testimonials", showTestimonials);
 page("/our-work", showWork);
 
 page.start();
+console.log("it works");
